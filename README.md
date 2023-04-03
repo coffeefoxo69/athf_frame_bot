@@ -33,9 +33,9 @@ anyone can use it to control or manage your bot.
 
 In the directory open up the .env file and paste your API access token into the BOT_TOKEN
 assignment.
-'''bash
+```bash
 export BOT_TOKEN=<your-api-access-token>
-'''
+```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install os, telebot.
 
