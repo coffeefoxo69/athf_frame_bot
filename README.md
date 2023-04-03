@@ -13,7 +13,7 @@ Users of this code should be expected to know how to navigate Telegram and know 
     .
     ├── .env                   # Environmental variables
     ├── bot.py                 # Python
-    ├── README.md
+    └── README.md
 
 ## Setup and Installation
 
@@ -24,14 +24,16 @@ If not already, install [Telegram](https://telegram.org/)
 To create a Telegram bot, a Telegram API access token is needed.
 
 To retrieve a token, open Telegram and search for @botfather. Start a conversation
-with [BotFather](https://t.me/botfather) by pressing the start button or sending '''/start'''.
+with [BotFather](https://t.me/botfather) by pressing the start button or sending '/start'.
 
-Send the command '''/newbot''' to BotFather and respond to the prompts to first name
+Send the command '/newbot' to BotFather and respond to the prompts to first name
 your bot and then give it a username. Following this BotFather will respond with an
 HTTP API Token to access the Telegram API. Do not share your API access token as
 anyone can use it to control or manage your bot.
 
-In
+In the directory open up the .env file and paste your API access token into the BOT_TOKEN
+assignment.
+'export BOT_TOKEN=<your-api-access-token>'
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install os, telebot.
 
