@@ -31,6 +31,8 @@ To create a Telegram bot, a Telegram API access token is needed.
 To retrieve a token, open Telegram and search for @botfather. Start a conversation
 with [BotFather](https://t.me/botfather) by pressing the start button or sending '/start'.
 
+<insert screenshot of image on telegram>
+
 Send the command '/newbot' to BotFather and respond to the prompts to first name
 your bot and then give it a username. Following this BotFather will respond with an
 HTTP API Token to access the Telegram API. Do not share your API access token as
@@ -57,20 +59,28 @@ pip install pytz
 pip install opencv-python
 ```
 
+### Telegram Channel/Chat
+
+For the bot to work as intended, it needs a Telegram Channel or Chat with write access.
+
+To create a bot, hit the icon in the upper right corner of Telegram and select either
+New Group or New Channel
+
+<insert screenshot of image on telegram>
+
+### Chat_Id Retrieval
+
+TBA
+
+### Container/Docker Setup
+
 ## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+Navigate to the root directory while in a Linux environment and type
+```bash
+python3 bot.py
 ```
+
 
 ## Contributing
 
